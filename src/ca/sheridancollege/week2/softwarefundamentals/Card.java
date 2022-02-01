@@ -8,18 +8,18 @@ package ca.sheridancollege.week2.softwarefundamentals;
 /**
  * A class to model Card Objects.
  * Created in Week 2 for the cloning repository demo
- * @author dancye, 2019
+ * @author mustafa hakkani,991659297
  */
-public class Card 
+public class Card
 {
     private String suit;// hearts, diamonds, spades and clubs
     private int value;//1-13
-    
+
     /**
      * A constructor that creates a Card Object with a given
      * suit and a given value.
      * @param givenSuit
-     * @param givenValue 
+     * @param givenValue
      */
     public Card(String givenSuit, int givenValue)
     {
@@ -59,17 +59,17 @@ public class Card
     /**
      * @param value the value to set
      */
-    public void setValue(int value) 
+    public void setValue(int value)
     {
         if((value<1)||(value>13))
         {
-              System.out.println("The value of the card must be between 1-13");      
+              System.out.println("The value of the card must be between 1-13");
         }
         else
         {
             this.value = value;
         }
     }
-    
-    
+
+
 }
