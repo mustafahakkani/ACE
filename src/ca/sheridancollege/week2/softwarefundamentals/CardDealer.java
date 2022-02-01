@@ -15,7 +15,12 @@ public class CardDealer
     {
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("diamonds");
+        
+        
         card spade3 = new Spade("Spades",6);
+        System.out.println(spade3.getValue());
+        
+        
     }
 
 
